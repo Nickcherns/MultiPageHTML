@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Navbar Styling */
+
+/* nav styling*/
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: black;
+    height: 2em;
+    border-bottom: 2px solid #6e6aa9;
+}
+
+nav li a {
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+/* main links within navbar */
+#mainpages, 
+#account {
+    width: 100%;
+    flex-grow: 1;
+}
+
+
+#mainpages li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+#mainpages {
+    display: inline-flex;
+    padding-right: 10px;
+    align-items: center;
+    font-size: 0.8em;
+    justify-content: space-between;
+}
+
+#mainpages .mainpg {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#mainpages #logobox {
+    width: 50px;
+    padding-left: 10px;
+    min-width: 30px;
+}
+
+#mainpages #logobox a {
+    background: url(https://toppng.com/uploads/preview/comic-book-resources-logo-11550242322pbbj1q9ben.png) center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    filter: invert(1);
+}
+
+#mainpages li a:hover {
+    background-color: lightgray;
+    color: black;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+/* search bar styling*/
+#searchbutton {
+    display: inline-flex;
+    background: url(https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png) center;
+    background-position: center;
+    background-size: 13px;
+    background-color: cyan;
+    background-position: center;
+    background-repeat: no-repeat;
+     filter: invert(1); 
+    height: 20px;
+    width: 20px;
+}
+
+.searchbar {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    align-self: center;
+}
+
+#search {
+    width: 300px;
+    min-width: 100px;
+    max-width: 400px;
+}
+
+/* account accessibility links on navbar*/
+#account {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-items: right;
+    align-self: center;
+    font-size: 0.6em;
+    color: white;
+    padding-right: 10px;
+    margin-left: 5px;
+    min-width: fit-content;
+}
+
+#account img {
+    background: url(http://www.clker.com/cliparts/5/j/r/G/y/p/shopping-cart-icon.svg) center;
+    background-size: contain;
+    display: inline-flex;
+    filter: invert(1);
+    width: 1.5em;
+    vertical-align: middle;
+}
+
+#account li a:hover {
+    background-color: lightgray;
+    color: black;
+    border-radius: 2px;
+}
+
+#account #cart:hover img {
+    background-color: white;
+    filter: invert(1);
+}
+/* End of Nav Bar */
+
+/* Content Styling*/
+#home ul {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: darkblue;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 800px;
+}
+
+#home ul li {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    position: relative;
+    background-color: rgb(238, 238, 3);
+    box-shadow: 10px 5px 5px yellow;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    margin: 25px;
+    border-radius: 40px;
+    border: solid 2px;
+    font-size: 2em;
+ }
+
+#home ul li a {
+    text-decoration-line: none;
+    font-size: 2em;
+    color: black;
+}
+
+/* animation styling */
+.animate__fadeInDown {
+    animation-duration: 2s;
+}
+
+
+/* content hover styling */
+#home ul li:hover, .home ul li:hover a {
+    background-color: blue;
+    color: white; 
+    border-color: rgb(90, 90, 90);
+}
+/* End of Contact Styling */
+
+/* Footer Styling */
+.foot {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: black;
+    border:  solid 2px white;
+    border-bottom: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: -10px;
+    align-items: center;
+    width: 100%;
+    height: 2.5em;
+    z-index: 100;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+.foot ul li {
+    padding-left: 10px;
+    padding-bottom: 6px;
+}
+
+footer ul li a { 
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: white;
+
+}
+
+footer p {
+    font-size: .8em;
+    color: white;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    
+}
+
+/* footer link hover styling */
+footer a:hover {
+    background-color: lightgray;
+    color: black;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+
